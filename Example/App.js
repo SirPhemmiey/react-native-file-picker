@@ -1,16 +1,11 @@
-import React from 'react-native';
-
-const {
-  StyleSheet,
-  Text,
-  View,
-  PixelRatio,
-  TouchableOpacity,
-  Image,
-  NativeModules: {
-    FilePickerManager
-  }
-} = React;
+import React, {Component} from 'react';
+import {StyleSheet,
+    Text,
+    View,
+    PixelRatio,
+    TouchableOpacity,
+    Image} from 'react-native';
+const FilePickerManager = require('NativeModules').FilePickerManager;
 
 export default class App extends React.Component {
 
